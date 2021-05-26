@@ -1,0 +1,83 @@
+body {
+  background-image: url("https://static.change.org/home/illustration-world-map-2015-08-18.gif");
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.bold{
+  font-weight: bolder;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+  background-color: #DA544D;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+} 
+
+li {
+  display: inline;  
+  padding: 15px;
+  font-family: Verdana;
+  color: lightgrey;
+}
+a:hover{
+  color: #F4BEAD;
+}
+.active{
+  color: white;
+  text-decoration: none;
+}
+.visit{
+  color:lightgrey;
+  text-decoration: none;
+}
+
+img{
+  float:right;
+  padding-right: 20px;
+  width: 170px;
+  height: 170px;
+
+}
+
+.contain{
+  border: solid;
+  border-width: 0.1px;
+  padding-left: 20px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  overflow: auto;
+  text-family: Verdana;
+  font-size: 20px; 
+  border-spacing: 20px;
+}
+
+.button {
+  background-color: #D53C33;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.center{
+ text-align: center;}
